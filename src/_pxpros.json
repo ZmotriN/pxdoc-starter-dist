@@ -14,5 +14,6 @@
         "pxdoc/_includes/hooks.php"
     ],
     "before": "pxdoc/_includes/before.php",
-    "after": "pxdoc/_includes/after.php"
+    "after": "pxdoc/_includes/after.php",
+    "dist": "../dist"
 }
