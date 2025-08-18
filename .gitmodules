@@ -1,0 +1,3 @@
+[submodule "src/pxdoc"]
+	path = src/pxdoc
+	url = https://github.com/ZmotriN/pxdoc.git
