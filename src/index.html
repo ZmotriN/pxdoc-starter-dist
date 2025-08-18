@@ -1,0 +1,87 @@
+<!-- 
+
+██████╗ ██╗  ██╗██████╗  ██████╗  ██████╗
+██╔══██╗╚██╗██╔╝██╔══██╗██╔═══██╗██╔════╝
+██████╔╝ ╚███╔╝ ██║  ██║██║   ██║██║
+██╔═══╝  ██╔██╗ ██║  ██║██║   ██║██║
+██║     ██╔╝ ██╗██████╔╝╚██████╔╝╚██████╗
+╚═╝     ╚═╝  ╚═╝╚═════╝  ╚═════╝  ╚═════╝
+
+-->
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta itemprop="digest" content="">
+        <meta itemprop="lang" content="fr_ca">
+        <meta property="og:locale" content="fr_ca">
+        <meta property="og:type" content="article">
+        <meta property="og:title" content="PXDoc | PXDoc">
+        <meta property="og:description" content="PHP driven static website engine.">
+        <meta property="og:url" content="https://zmotrin.github.io/pxdoc-starter-dist/">
+        <meta property="og:image" content="https://zmotrin.github.io/pxdoc-starter-dist/pxdoc/images/image.webp">
+        <link rel="icon" type="image/x-icon" href="./pxdoc/images/favicon.ico">
+        <link rel="stylesheet" href="./pxdoc/styles/styles.min.css">
+        <script>const shared = './pxdoc/';</script>
+        <script>const root = './';</script>
+        <script src="./pxdoc/jscripts/pxdoc.core.min.js"></script>
+        <title>PXDoc</title>
+    </head>
+    <body>
+        <script>document.body.classList.add(localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light');</script>
+        <a id="top"></a>
+        <div id="logo" @click="goToTop('./', '')" title="Retour à l'accueil"></div>
+        <div title="Interrupteur" id="lightswitch" ref="lightswitch" @click="lightswitch()"></div>
+        <header>
+            <div id="breadcrumb">
+                <div id="breadcrumb_normal"></div>
+                <div id="breadcrumb_index"></div>
+            </div>
+            <h1 id="title"><img src="pxdoc/images/logo.svg">&nbsp;PXDoc</h1>
+        </header>
+        <main>
+            <article>
+                <div id="contents">
+
+<grostitre>Introduction</grostitre>
+
+
+<p><strong>PXDoc</strong> est une solution innovante qui permet de transformer facilement des fichiers PHP en pages statiques, optimisées pour être hébergées sur des plateformes comme GitHub et Jekyll. Grâce à l'intégration transparente de composants Vue.js, PXDoc facilite la création et la gestion de contenu interactif pour vos besoins spécifiques.</p>
+
+<h3>Caractéristiques Principales</h3>
+
+<ul>
+    <li><strong>Conversion Facile</strong> : Générez des sites statiques à partir de fichiers <em>PHP</em> sans effort.</li>
+    <li><strong>Compatible GitHub et Jekyll</strong> : Parfaitement adapté pour un déploiement rapide sur ces plateformes populaires.</li>
+    <li><strong>Composants Vue.js</strong> : Utilisez des composants modulaires et réutilisables pour une intégration simplifiée.</li>
+    <li><strong>Idéal pour les Cours en Ligne</strong> : Créez et gérez des modules pédagogiques dynamiques avec une interface utilisateur engageante.</li>
+</ul>
+
+
+
+
+
+<p>PXDoc est l'outil par excellence pour les développeurs et éducateurs souhaitant créer du contenu de qualité, rapidement et efficacement. Explorez les possibilités offertes par PXDoc pour transformer votre vision en réalité numérique.</p>
+
+
+<dots></dots>
+
+<grostitre>À propos</grostitre>
+
+<ul>
+    <li>Développeur: <em>Maxime Larrivée-Roy</em></li>
+</ul>
+
+<dots></dots>
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>
+        </main>
+        <footer>
+            © Tous droits réservés<br>Diametrick, 2025            
+        </footer>
+        <script>app.mount('body');</script>
+    </body>
+</html>
