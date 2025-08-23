@@ -58,6 +58,19 @@
 
     // Live Server configuration
     "liveServer.settings.port": 5503,
-    "liveServer.settings.root": "./src/"
+    "liveServer.settings.root": "./src/",
+    "liveServer.settings.ignoreFiles": [
+        ".vscode/**",
+        ".github/**",
+        "**/_**",
+        "**/.git/**",
+        "**/.vendor/**",
+        "**/node_modules/**",
+        "**/*.scss",
+        "**/*.sass",
+        "**/*.php",
+        "**/*.ts",
+        "**/!(*.min).js"
+    ]
 
 }
