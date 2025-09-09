@@ -57,7 +57,7 @@
     ],
 
     // Live Server configuration
-    "liveServer.settings.port": 5503,
+    "liveServer.settings.port": 5504,
     "liveServer.settings.root": "./src/",
     "liveServer.settings.ignoreFiles": [
         ".vscode/**",
